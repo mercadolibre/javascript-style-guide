@@ -794,7 +794,7 @@ Based on:
 
 - Use `jslint` with the following configuration:
 
-        /*jslint ass: true, nomen: true, regexp: true, todo: true, indent: 4 */
+        /*jslint browser: true, ass: true, nomen: true, regexp: true, todo: true, indent: 4 */
 
 
 - Use `jshint` with the following configuration:
