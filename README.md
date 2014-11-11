@@ -537,7 +537,7 @@ Based on:
 
 ### while
 - Don't calculate the length on each iteration.
-- Don't put semicolon at the end of the for statement.
+- Don't put semicolon at the end of the while statement.
 - Put opening brace on the same line.
 - Put a space between 'while' and '('.
 - Put a space between ')' and '{'.
@@ -563,9 +563,10 @@ Based on:
 
     ```js
     // DO
-    var i = 0;
+    var i = 0,
+        len = foo.length;
 
-    while·(i < foo.length)·{
+    while·(i < len)·{
         console.log('foobar');
         i += 1;
     }
