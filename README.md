@@ -36,7 +36,7 @@ Based on:
 - [Module Pattern](#module-pattern)
 - [Linting](#linting)
 
-## Comments 
+## Comments
 - All your code should be documented.
 - Use single-line comment to add hints, notes, suggestions or warnings.
 - Use multiple-line comment for formal documentation.
@@ -112,7 +112,7 @@ Based on:
     ```
 
 - Don't put the comma at the end of the last property. [Trailing commas in object literals are legal in ECMAScript 5](http://www.2ality.com/2013/07/trailing-commas.html), but don't use it for the time being.
-    
+
     ```js
     // DON'T
     var map = {
@@ -150,7 +150,7 @@ Based on:
             console.log('foobar');
         }
         ```
-        
+
     - conditionals statements (`if...else`, `switch`)
 
         ```js
@@ -159,14 +159,14 @@ Based on:
             console.log('foobar');
         };
         ```
-        
+
         ```js
         // DO
         if (foo !== undefined) {
             console.log('foobar');
         }
         ```
-        
+
     - funcions declarations
 
         ```js
@@ -175,7 +175,7 @@ Based on:
             console.log('foobar');
         };
         ```
-        
+
         ```js
         // DO
         function foo() {
@@ -207,7 +207,7 @@ Based on:
     // DON'T
     var foo = new Array();
     ```
-    
+
     ```js
     // DO
     var foo = [];
@@ -218,7 +218,7 @@ Based on:
     // DON'T
     var foo = new Object();
     ```
-    
+
     ```js
     // DO
     var foo = {};
@@ -233,7 +233,7 @@ Based on:
     // DON'T
     foo||bar;
     ```
-    
+
     ```js
     // DO
     foo·||·baz;
@@ -246,7 +246,7 @@ Based on:
     // DON'T
     foo++;
     ```
-    
+
     ```js
     // DO
     foo += 1;
@@ -257,7 +257,7 @@ Based on:
     // DON'T
     (1+2)*3;
     ```
-    
+
     ```js
     // DO
     (1·+·2)·*·3;
@@ -280,7 +280,7 @@ Based on:
     // DON'T
     var foo='bar';
     ```
-    
+
     ```js
     // DO
     var foo·=·'bar';
@@ -297,7 +297,7 @@ Based on:
     // DON'T
     var foo, bar, baz;
     ```
-    
+
     ```js
     // DO
     var foo,
@@ -311,7 +311,7 @@ Based on:
     // DON'T
     var container = $('#foo');
     ```
-    
+
     ```js
     // DO
     var $container = $('#foo');
@@ -324,7 +324,7 @@ Based on:
     bar();
     var baz = 'example';
     ```
-    
+
     ```js
     // DO
     var foo,
@@ -337,7 +337,7 @@ Based on:
 
 ### Naming
 - Function names should begin with a verb.
-    
+
     ```js
     // DON'T
     function name(){
@@ -352,7 +352,7 @@ Based on:
     ```
 
 - Function return booleans should begin with `is` or `has`.
-    
+
     ```js
     // DON'T
     function error(){
@@ -771,22 +771,22 @@ Based on:
     // myComponent.js
     (function (window) {
         'use strict';
-        
+
         function MyComponent() {...};
-        
+
         MyComponent.prototype._private = function () {...};
-        
+
         MyComponent.prototype.public = function () {...};
-        
+
         // Expose component
         window.MyComponent = MyComponent;
-        
+
     }(this));
     ```
 
 ## Linting
 
-- Use [JSLint](http://www.jslint.com) or [JSHint](http://www.jshint.com) to:
+- Use [JSLint](http://www.jslint.com) ,[JSHint](http://www.jshint.com) o [ESlint](http://eslint.org/) to:
     - detect errors and potential problems;
     - improves your quality code;
     - avoids unused variables;
@@ -831,6 +831,11 @@ Based on:
         "sub": true,
         "supernew": true  
     }
+    ```
+
+- Use `eslint` with the following basic configuration:
+
+    ```
     ```
 
 ## License
