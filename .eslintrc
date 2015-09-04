@@ -3,7 +3,7 @@
         "browser": true,
         "jquery": true
     },
-        "rules": {
+    "rules": {
         "block-scoped-var": [0],
         "comma-dangle": [2],
         "comma-style": [2, "last"],
