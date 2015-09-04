@@ -786,7 +786,7 @@ Based on:
 
 ## Linting
 
-- Use [JSLint](http://www.jslint.com), [JSHint](http://www.jshint.com) o [ESlint](http://eslint.org/) to:
+- Use [JSLint](http://www.jslint.com), [JSHint](http://www.jshint.com) or [ESlint](http://eslint.org/) to:
     - detect errors and potential problems;
     - improves your quality code;
     - avoids unused variables;
