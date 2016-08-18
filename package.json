@@ -1,0 +1,29 @@
+{
+  "name": "javascript-style-guide",
+  "version": "0.1.0",
+  "description": "Configuration for JavaScript linters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mercadolibre/javascript-style-guide.git"
+  },
+  "keywords": [
+    "eslint",
+    "linter",
+    "javascript"
+  ],
+  "author": "Cristian Escudero <cristian.escudero@mercadolibre>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mercadolibre/javascript-style-guide/issues"
+  },
+  "homepage": "https://github.com/mercadolibre/javascript-style-guide#readme",
+  "devDependencies": {
+    "eslint": "3.3.1",
+    "eslint-config-airbnb-base": "5.0.2",
+    "eslint-plugin-import": "1.13.0"
+  }
+}

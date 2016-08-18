@@ -1,0 +1,18 @@
+{
+    "root": true,
+    "extends": [
+        "../node_modules/eslint-config-airbnb-base/legacy.js",
+        "../globals.js"
+    ],
+    "rules": {
+        "func-names": ["off"],
+        "indent": ["error", 4],
+        "max-len": ["error", {
+            "code": 120,
+            "tabWidth": 4,
+            "ignoreUrls": true,
+            "ignoreComments": false
+        }],
+        "no-param-reassign": ["off"]
+    }
+}
