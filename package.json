@@ -1,6 +1,6 @@
 {
   "name": "javascript-style-guide",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Configuration for JavaScript linters",
   "main": "index.js",
   "scripts": {
