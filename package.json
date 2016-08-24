@@ -21,7 +21,7 @@
     "url": "https://github.com/mercadolibre/javascript-style-guide/issues"
   },
   "homepage": "https://github.com/mercadolibre/javascript-style-guide#readme",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "3.3.1",
     "eslint-config-airbnb-base": "5.0.2",
     "eslint-plugin-import": "1.13.0"
