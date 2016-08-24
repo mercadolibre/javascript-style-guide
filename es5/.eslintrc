@@ -1,7 +1,7 @@
 {
     "root": true,
     "extends": [
-        "../node_modules/eslint-config-airbnb-base/legacy.js",
+        "./legacy.js",
         "../globals.js"
     ],
     "rules": {
