@@ -13,6 +13,7 @@
             "ignoreUrls": true,
             "ignoreComments": false
         }],
-        "no-param-reassign": ["off"]
+        "no-param-reassign": ["off"],
+        "one-var": ["warn", "never"]
     }
 }
