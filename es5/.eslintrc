@@ -14,7 +14,7 @@
             "ignoreComments": false
         }],
         "no-param-reassign": ["off"],
-        "no-underscore-dangle": ["off"],
+        "no-underscore-dangle": ["warn", { allowAfterThis: false }],
         "one-var": ["warn", "never"],
         "quote-props":  [
             "warn",
