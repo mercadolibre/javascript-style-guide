@@ -14,6 +14,16 @@
             "ignoreComments": false
         }],
         "no-param-reassign": ["off"],
-        "one-var": ["warn", "never"]
+        "no-underscore-dangle": ["warn", { allowAfterThis: false }],
+        "one-var": ["warn", "never"],
+        "quote-props":  [
+            "warn",
+            "as-needed",
+            {
+                "keywords": false,
+                "unnecessary": true,
+                "numbers": false
+            }
+        ]
     }
 }
