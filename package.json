@@ -1,6 +1,6 @@
 {
   "name": "javascript-style-guide",
-  "version": "0.2.0-alpha.0",
+  "version": "0.2.0-alpha.1",
   "description": "Configuration for JavaScript linters",
   "main": "index.js",
   "scripts": {
@@ -22,11 +22,9 @@
   },
   "homepage": "https://github.com/mercadolibre/javascript-style-guide#readme",
   "dependencies": {
+    "babel-eslint": "6.1.2",
     "eslint": "3.5.0",
     "eslint-config-airbnb-base": "7.1.0",
     "eslint-plugin-import": "1.15.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "6.1.2"
   }
 }
