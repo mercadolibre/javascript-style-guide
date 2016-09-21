@@ -1,2 +1,13 @@
-@TODO replace for real rules.
+{
+  "extends": [
+    'eslint-config-airbnb-base',
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "max-len": [2, 120, 2, {
+      "ignoreUrls": true,
+      "ignoreComments": false
+    }],
+  }
+}
 
