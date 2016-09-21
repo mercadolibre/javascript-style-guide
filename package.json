@@ -22,5 +22,11 @@
   },
   "homepage": "https://github.com/mercadolibre/javascript-style-guide#readme",
   "dependencies": {
+    "eslint": "3.5.0",
+    "eslint-config-airbnb-base": "7.1.0",
+    "eslint-plugin-import": "1.15.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "6.1.2"
   }
 }
