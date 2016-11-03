@@ -7,7 +7,7 @@
     "rules": {
         "func-names": ["off"],
         "indent": ["error", 4],
-        "max-len": ["error", {
+        "max-len": ["warn", {
             "code": 120,
             "tabWidth": 4,
             "ignoreUrls": true,
