@@ -5,6 +5,10 @@ module.exports = {
         tiny: true,
         App: true,
         Handlebars: true,
-        Mercadopago: true
+        Mercadopago: true,
+        
+        // i18n
+        gettext: true,
+        ngettext: true
     }
 };
