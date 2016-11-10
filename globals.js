@@ -1,5 +1,6 @@
 module.exports = {
     globals: {
+        $: true,
         _: true,
         ch: true,
         tiny: true,
